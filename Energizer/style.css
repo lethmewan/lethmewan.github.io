@@ -11,7 +11,7 @@ html{
 
 body {
     background: #080808;
-    color: #fff;
+    color: #000000;
 }
 
 #header {
@@ -44,7 +44,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
     position: relative;
