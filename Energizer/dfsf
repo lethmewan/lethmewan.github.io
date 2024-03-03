@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energizer - Tasty & Healthy Snaks</title>
+    <title>NEOFOX - Accelerating Your Digital Journey</title>
     <link rel="icon" href="images/logo.png">
 
 
@@ -29,8 +29,8 @@
                 </span>
 
                 <div class="text header-text">
-                    <span class="name">Energizer</span>
-                    <span class="profession">Tasty & Healthy</span>
+                    <span class="name">NeoFox</span>
+                    <span class="profession">web developer</span>
                 </div>
             </div>
 
@@ -52,18 +52,43 @@
                         </a>
                     </li><li class="nav-links">
                         <a href="#">
-                            <box-icon type='solid' class="icon" name='user-badge'></box-icon>
-                            <span class="text nav-text">About Us</span>
+                            <box-icon name='code' class="icon"></box-icon>
+                            <span class="text nav-text">code</span>
                         </a>
                     </li><li class="nav-links">
                         <a href="#">
-                            <box-icon name='baguette' class="icon"></box-icon>
-                            <span class="text nav-text">Our Products</span>
+                            <box-icon name="spa" class="icon"></box-icon>
+                            <span class="text nav-text">spa</span>
                         </a>
                     </li><li class="nav-links">
                         <a href="#">
-                            <box-icon name='phone' class="icon"></box-icon>
-                            <span class="text nav-text">Contact</span>
+                            <box-icon name='user' class="icon"></box-icon>
+                            <span class="text nav-text">user</span>
+                        </a>
+                    </li><li class="nav-links">
+                        <a href="#">
+                            <box-icon name='ghost' class="icon"></box-icon>
+                            <span class="text nav-text">ghost</span>
+                        </a>
+                    </li><li class="nav-links">
+                        <a href="#">
+                            <box-icon name='cart' class="icon"></box-icon>
+                            <span class="text nav-text">cart</span>
+                        </a>
+                    </li><li class="nav-links">
+                        <a href="#">
+                            <box-icon name='leaf' class="icon"></box-icon>
+                            <span class="text nav-text">leaf</span>
+                        </a>
+                    </li><li class="nav-links">
+                        <a href="#">
+                            <box-icon name='menu' class="icon"></box-icon>
+                            <span class="text nav-text">menu</span>
+                        </a>
+                    </li><li class="nav-links">
+                        <a href="#">
+                            <box-icon name='chart' class="icon"></box-icon>
+                            <span class="text nav-text">chart</span>
                         </a>
                     </li>
                 </ul>
@@ -88,12 +113,8 @@
                 </li>
             </div>
         </div>
-        
     </nav>
-    
-    <!-- body - part -->
-<div class="body">
-   
+
 </body>
 
 <script src="script.js"></script>
