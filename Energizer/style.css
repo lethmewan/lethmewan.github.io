@@ -29,7 +29,15 @@ body{
 }
 
 .body{
-    margin-left: 78px;
+margin-left: 78px;
+}
+
+.body1{
+    background: url("images/background.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 /* ======= reusable css ======= */
