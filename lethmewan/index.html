@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Lethmewan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servises</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <ion-icon class="fas" name="close-sharp" onclick="closemenu()"></ion-icon>
+                </ul>
+                <ion-icon class="fas" name="menu-sharp" onclick="openmenu()"></ion-icon>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Lethmewan</span><br> Anupama From Kandy</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquid enim et incidunt
+                        consequuntur minima quo aut nam, dolorum asperiores deserunt recusandae, eum dolore totam
+                        perspiciatis, nemo ratione in dolorem. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Magni, dolorem provident. Cupiditate quae similique ipsa porro? Ipsum, magni. Eum aut, quae
+                        illum dolor ipsum natus tenetur ea quo pariatur earum.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('educations')">Educations</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desining Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021</span><br>Desining Web/App Interfaces</li>
+                            <li><span>2029</span><br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit,
+                                impedit reprehenderit! Architecto eius, perspiciatis consequatur, nesciunt illo
+                                similique atque, est cumque neque molestias quos at sit? Veniam porro quibusdam quas.
+                            </li>
+                            <li><span>2054</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="educations">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desining Web/App Interfaces</li>
+                            <li><span>2000</span><br>Web App Development</li>
+                            <li><span>current</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services </h1>
+            <div class="services-list">
+                <div>
+                    <ion-icon name="code-slash"></ion-icon>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur similique accusamus,
+                        nesciunt ipsam inventore laboriosam?</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <ion-icon name="crop"></ion-icon>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur similique accusamus,
+                        nesciunt ipsam inventore laboriosam?</p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <ion-icon name="logo-google-playstore"></ion-icon>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur similique accusamus,
+                        nesciunt ipsam inventore laboriosam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <ion-icon class="icon" name="logo-tiktok"></ion-icon>
+                        <h3>Social Meadia App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vel perspiciatis natus ullam
+                            doloremque sunt, corrupti quos qui, possimus labore soluta harum dolores earum repellendus
+                            consequatur iure? Suscipit, itaque hic?</p>
+                            <a href="#"><ion-icon name="share-outline"></ion-icon></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <ion-icon class="icon" name="musical-notes"></ion-icon>
+                        <h3>Music Meadia App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vel perspiciatis natus ullam
+                            doloremque sunt, corrupti quos qui, possimus labore soluta harum dolores earum repellendus
+                            consequatur iure? Suscipit, itaque hic?</p>
+                            <a href="#"><ion-icon name="share-outline"></ion-icon></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <ion-icon class="icon" name="cart-sharp"></ion-icon>
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem vel perspiciatis natus ullam
+                            doloremque sunt, corrupti quos qui, possimus labore soluta harum dolores earum repellendus
+                            consequatur iure? Suscipit, itaque hic?</p>
+                            <a href="#"><ion-icon name="share-outline"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See  more</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><ion-icon name="send-sharp"></ion-icon>contact@example.com</p>
+                    <p><ion-icon name="call-sharp"></ion-icon>1234567890</p>
+                    <div class="social-icons">
+                        <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href=""><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href=""><ion-icon name="logo-youtube"></ion-icon></a>
+                    </div>
+                    <a class="btn btn2" href="images/my-cv.pdf" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+    Copyright &copy; 2023 All rights reserved | Developed by Lethmewan Pvt Ltd
+    <p></p>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
