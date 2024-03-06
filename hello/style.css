@@ -272,7 +272,7 @@ body.dark .switch::before {
 }
 
 .home {
-    height: 100vh;
+    height: 100%;
     width: calc(100% - 250px);
     background: var(--body-color);
     position: relative;
