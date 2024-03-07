@@ -21,6 +21,20 @@ modeSwitch.addEventListener("click", () => {
     }
 });
 
+var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzwb5ODLglMoESpwsHAYAwGbsHbjB4K7CxJZNkPFq5bp2gX7-XXlZAMTydSHbUP2XLx_w/exec'
 const form = document.forms['submit-to-google-sheet']
 const msg = document.getElementById("msg")
@@ -37,3 +51,33 @@ form.addEventListener('submit', e => {
         })
         .catch(error => console.error('Error!', error.message))
 })
+
+var swiper = new Swiper(".slide-content",{
+    slidesPerView:3,
+    spaceBetween:30,
+    slidesPerGroup:3,
+    loop:true,
+    centerSlide:"true",
+    fade:true,
+    grabCursor:true,
+    DynamicBullets:true,
+    pagination:{
+        el:".swiper-pagination",
+        clickable:true,
+    },
+    navigation:{
+        nextEl:".swiper-button-next",
+        prevEl:".swiper-button-prev",
+    },
+    breakpoints:{
+        0:{
+            slidesPerView:1,
+        },
+        520:{
+            slidesPerView:2,
+        },
+        950:{
+            slidesPerView:3,
+        },
+    }
+});
