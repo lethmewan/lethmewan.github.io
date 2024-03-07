@@ -30,7 +30,6 @@ body {
     height: 100vh;
     background: var(--body-color);
     transition: var(--tran-05);
-    overflow: hidden;
 }
 
 /* ======= reusable css ======= */
@@ -280,7 +279,7 @@ body.dark .switch::before {
     left: 88px;
     transition: var(--tran-05);
     /* background: url("images/background.jpg"); */
-    width: 100%;
+    width:  calc(100% - 88px);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -369,8 +368,10 @@ nav ion-icon{
 
 @media only screen and (max-width : 600px){
    .contact-left,.contact-right{
-        flex-basis: 100%;
+        flex-basis: 70%;
+        margin-left: 20px;
     }
+    
 }
 
 #msg{
